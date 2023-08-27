@@ -672,11 +672,11 @@ transition: color .4s;
 
 .projects__link:hover,
 .projects__link:hover i{
-  color:#26867d;
+  color:#e06666a8;
 }
 
 .projects__card:hover{
-  background-color:rgba(38, 134, 125, 0.10);
+  background-color:rgba(235, 180, 194, 0.637);
 }
 
 .contact {
