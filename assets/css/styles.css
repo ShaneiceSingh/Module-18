@@ -190,8 +190,7 @@ img {
   column-gap: .5rem;
   align-items: center;
   font-size: large;
-  width:25%;
-  max-width: 45%;
+  max-width: 100%;
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
