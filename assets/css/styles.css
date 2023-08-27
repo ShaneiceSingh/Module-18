@@ -459,7 +459,7 @@ background-color: var(--first-color);
 }
 
 .about{
-  background-color: var(--container-color);
+  background-color: #FBF7F2;
   transition: background-color .4s;
 }
 .about__container{
@@ -594,7 +594,7 @@ background-color: var(--first-color);
 }
 
 .projects{
-  background-color: var(--container-color);
+  background-color: #FBF7F2;
   transition: background-color .4s;
 
 }
