@@ -962,6 +962,16 @@ transition: color .4s;
 }
 
 @media screen and (max-width: 340px){
+  .home__social{
+    display: none;
+  }
+  .home__social-link{
+    display: none;
+  }
+  .home__social-link:hover{
+    display: none;
+
+
   .container{
     margin-inline: 1rem;
   }
