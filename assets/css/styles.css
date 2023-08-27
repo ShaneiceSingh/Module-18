@@ -676,7 +676,7 @@ transition: color .4s;
 }
 
 .projects__card:hover{
-  background-color:rgba(235, 180, 194, 0.637);
+  background-color:rgba(235, 180, 194, 0.50);
 }
 
 .contact {
