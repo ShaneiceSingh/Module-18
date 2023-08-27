@@ -1024,7 +1024,7 @@ transition: color .4s;
   }
 
   .section{
-    padding-block: 7rem 2rem;
+    padding-block: 4rem 2rem;
   }
   .section__title-1::after,
   .section__title-2::after{
