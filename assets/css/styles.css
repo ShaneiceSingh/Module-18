@@ -190,13 +190,13 @@ img {
   column-gap: .5rem;
   align-items: center;
   font-size: large;
-  width: 100%;
+  max-width: 50%;
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
 
 .logoimg{
-  width: 15%;
+  width: 50%;
 }
 .nav__toggle{
   width: 32px;
