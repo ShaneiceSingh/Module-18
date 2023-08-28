@@ -1028,7 +1028,7 @@ transition: color .4s;
   }
 
   .section{
-    padding-block: 4rem 2rem;
+    padding-block: 7rem 2rem;
   }
   .section__title-1::after,
   .section__title-2::after{
@@ -1059,7 +1059,6 @@ transition: color .4s;
   .nav__list{
     flex-direction: row;
     column-gap: 1.5rem;
-    align-items: baseline;
   }
   .nav__menu{
     margin-left:auto;
@@ -1068,7 +1067,6 @@ transition: color .4s;
     color: var(--text-color);
     font-size: var(--normal-font-size);
     padding: 10%;
-    text-wrap : nowrap;
   }
   .nav__link:hover{
     color:var(--title-color);
@@ -1080,16 +1078,15 @@ transition: color .4s;
   background-color: var(--black-color);
   color: var(--white-color);
   padding: 1.1rem 1.5rem;
-  transition: background-color .4s;
 }
 
 .nav__link-button:hover{
   color: var(--white-color);
-  background-color: var(--first-color);
 }
 .nav__link-button::after{
   background-color: transparent;
 }
+
 
 
 
