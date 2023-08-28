@@ -962,6 +962,16 @@ transition: color .4s;
 }
 
 @media screen and (max-width: 340px){
+  .home__social{
+    display: none;
+  }
+  .home__social-link{
+    display: none;
+  }
+  .home__social-link:hover{
+    display: none;
+  }
+
   .container{
     margin-inline: 1rem;
   }
@@ -1059,6 +1069,7 @@ transition: color .4s;
   .nav__list{
     flex-direction: row;
     column-gap: 1.5rem;
+    align-items: baseline;
   }
   .nav__menu{
     margin-left:auto;
@@ -1067,6 +1078,7 @@ transition: color .4s;
     color: var(--text-color);
     font-size: var(--normal-font-size);
     padding: 10%;
+    text-wrap:nowrap
   }
   .nav__link:hover{
     color:var(--title-color);
@@ -1078,10 +1090,12 @@ transition: color .4s;
   background-color: var(--black-color);
   color: var(--white-color);
   padding: 1.1rem 1.5rem;
+  transition: background-color .4s;
 }
 
 .nav__link-button:hover{
   color: var(--white-color);
+  background-color: var(--first-color);
 }
 .nav__link-button::after{
   background-color: transparent;
